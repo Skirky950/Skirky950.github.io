@@ -22,6 +22,11 @@ body {
     background-color: #333;
  }
 
+.navbar-inverse .navbar-toggle:focus, 
+.navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+}
+
 .navbar-nav, .navbar-inverse .navbar-brand {
 	font-family: 'Roboto Condensed', Helvetica, sans-serif; 
 	font-size: 1.6rem;
@@ -226,5 +231,10 @@ a.arrow-down:hover {
 @media (max-width: 767px) { 
 	.project-sect p, .bio-sect p {
 		line-height: 4rem;
+	}
+
+	.navbar-brand>img {
+    display: block;
+    width: 80%;
 	}
 }
