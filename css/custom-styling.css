@@ -18,8 +18,12 @@ body {
 	margin-bottom: 3rem;
 }
 
+.navbar-inverse .navbar-toggle {
+	border-color: black;
+}
+
 .navbar-inverse .navbar-toggle .icon-bar {
-    background-color: #333;
+    background-color: black;
  }
 
 .navbar-inverse .navbar-toggle:focus, 
