@@ -1,0 +1,230 @@
+body {
+	font-size: 62.5%;
+}
+
+/* ID Div Styling */
+
+#back-to-top {
+	padding-top: 2rem;
+}
+
+#back-to-top a:hover {
+	color: #474747;
+}
+
+/* Navbar Styling */
+
+.navbar-toggle {
+	margin-bottom: 3rem;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #333;
+ }
+
+.navbar-nav, .navbar-inverse .navbar-brand {
+	font-family: 'Roboto Condensed', Helvetica, sans-serif; 
+	font-size: 1.6rem;
+	text-transform: capitalize;
+	color: #333;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.navbar-inverse {
+	border-style: none;
+	background-color: transparent;
+}
+
+.navbar-brand {
+	padding-top: 0;
+}
+
+ul.navbar-right {
+	padding-top: 1.2rem;
+}
+
+.navbar-inverse .navbar-brand:hover {
+	color: #474747;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: black;
+  letter-spacing: 0.3rem;
+  font-size: 1.3rem;
+}
+
+/* Intro-sect Div Styling */
+
+.intro-sect {
+	background-image: url(../images/desk_top_image.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 0;
+	padding-top: 48.5%;
+	position: relative;
+}
+
+#down-arrow {
+	text-align: center;
+    position: absolute; 
+    top: 90%; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+}
+
+a.arrow-down {
+	color: #333;
+}
+
+a.arrow-down:hover {
+	color: #474747;
+}
+
+/* Bio-Sect Div Styling */
+
+.bio-sect {
+	font-family: 'Open Sans Condensed', Helvetica, sans-serif;
+	text-align: center;
+	background-color: white;
+	padding-top: 5rem;
+}
+
+.bio-sect hr, .project-sect hr {
+	width: 12rem;
+	margin-top: 0rem; 
+}
+
+.bio-sect hr {
+	border-color: #333;
+}
+
+.bio-sect .badges h3 {
+	font-size: 5rem;
+}
+
+.bio-sect p {
+	line-height: 5rem;
+}
+
+/* Circle surrounding age (25) styling*/
+
+.circle { 				
+	width: 5.8rem;
+	height: 5.8rem;
+	border-radius: 2.9rem;
+	font-size: 3rem;
+	color: #fff;
+	line-height: 5.6rem;
+	text-align: center;
+	background-color: #333;
+	font-weight: 600;
+	display: table;
+	margin: 0 auto;
+}
+
+/* Project-sect Div Styling */
+
+.project-sect {
+	background-color: #333;
+	color: #ecf0f1;
+}
+
+.project-sect h1 {
+	  padding-top: 3rem;
+}
+
+.project-sect hr {
+	border-color: #ecf0f1;
+}
+
+.project-sect p {
+    padding-top: 1rem !important;
+    line-height: 5rem;
+}
+
+/* Homepage Div Styling */
+
+.homepage {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+}
+
+.homepage h1, h2, h3 {
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.3rem;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.homepage h1 {
+	font-size: 3rem;
+}
+
+.homepage h2 {
+	font-size: 2.6rem;
+}
+
+.homepage p {
+	font-size: 2rem;
+	padding: 4rem 3rem;
+    margin-bottom: 0;	
+}
+
+/* Footer Styling */
+
+.fa-chevron-circle-up {
+	color: #333;
+}
+
+.fa-chevron-circle-up:hover {
+	color: #474747;
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) { 
+
+	#down-arrow {
+    position: absolute; 
+    top: 90%; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+	}
+}
+
+@media  (max-width: 991px) { 
+
+	#down-arrow {
+    display: none;
+	}
+
+	.bio-sect {
+		padding-top: 2rem;
+	}
+
+	.bio-sect h2, .col-md-4 {
+		padding-bottom: 2rem;
+	}
+
+	.bio-sect p {
+		padding-top: 1.5rem;
+	}
+	
+	.homepage h1 {
+		font-size: 2.5rem;
+	}
+
+	.homepage h2 {
+		font-size:2rem;
+	}
+}
+
+@media (max-width: 767px) { 
+	.project-sect p, .bio-sect p {
+		line-height: 4rem;
+	}
+}
