@@ -95,10 +95,27 @@ a.arrow-down:hover {
 /* Bio-Sect Div Styling */
 
 .bio-sect {
-	font-family: 'Open Sans Condensed', Helvetica, sans-serif;
+	font-family: 'Lato', Helvetica, sans-serif;
 	text-align: center;
-	background-color: white;
-	padding-top: 5rem;
+	background-color: #191922;
+	padding-top: 0rem;
+	margin-top: 0.1rem;
+}
+
+.id-badge {
+	padding-bottom: 4rem;
+	padding-top: 4rem;
+}
+
+.bio-sect p {
+	font-size: 2rem;
+	color: #fff;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	line-height: 6rem;
+	margin-bottom: 0rem;
+	padding-bottom: 4rem;
 }
 
 .bio-sect hr, .project-sect hr {
@@ -108,14 +125,6 @@ a.arrow-down:hover {
 
 .bio-sect hr {
 	border-color: #333;
-}
-
-.bio-sect .badges h3 {
-	font-size: 5rem;
-}
-
-.bio-sect p {
-	line-height: 5rem;
 }
 
 /* Circle surrounding age (25) styling*/
@@ -137,9 +146,41 @@ a.arrow-down:hover {
 /* Project-sect Div Styling */
 
 .project-sect {
-	background-color: #333;
-	color: #ecf0f1;
+	color: #000;
+	font-family: 'Lato', Helvetica, sans-serif;
+	background-color: #eee;
 }
+
+.project-sect p {
+	font-size: 3rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	font-size: 2rem;
+	line-height: 5rem;
+}
+
+.app-image {
+	display: inline;
+    margin: 2rem;
+    padding: 0rem;
+    vertical-align: middle;
+    width: 28rem;
+}
+
+#project-image {
+	display: block;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    position: relative;
+    top: 0rem;
+    height: auto;
+    max-width: auto;
+    overflow-y: hidden;
+    overflow-x: auto;
+    word-wrap: normal;
+    white-space: nowrap;
+}
+
 
 .project-sect h1 {
 	  padding-top: 3rem;
@@ -149,15 +190,9 @@ a.arrow-down:hover {
 	border-color: #ecf0f1;
 }
 
-.project-sect p {
-    padding-top: 1rem !important;
-    line-height: 5rem;
-}
-
 /* Homepage Div Styling */
 
 .homepage {
-	font-family: 'Open Sans Condensed', sans-serif;
 	text-align: center;
 }
 
@@ -176,20 +211,32 @@ a.arrow-down:hover {
 	font-size: 2.6rem;
 }
 
-.homepage p {
-	font-size: 2rem;
-	padding: 4rem 3rem;
-    margin-bottom: 0;	
+/* Footer Styling */
+
+footer {
+	background-color: #191922;
+	color: #fff;
+	padding-bottom: 2rem;
 }
 
-/* Footer Styling */
+footer img {
+	padding-top: 2rem;
+}
+
+footer p {
+	padding-top: 1rem;
+	font-size: 1rem;
+	color: #fff;
+	text-transform: capitalize;
+	margin-bottom: 0rem;
+}
 
 .fa-chevron-circle-up {
 	color: #333;
 }
 
 .fa-chevron-circle-up:hover {
-	color: #474747;
+	color: #fff;
 }
 
 /* Responsive Styling */
